@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4",
     "x-react-flipclock": "^0.1.184153"
   },
-  "homepage": "http://DevsFarmX.github.io/landing",
+  "homepage": "https://farmx.land",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
