@@ -3,19 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@leenguyen/react-flip-clock-countdown": "^1.0.5",
+    "@pqina/flip": "^1.7.7",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "chart.js": "^3.8.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
+    "react-chartjs-2": "^4.1.0",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.1.0",
+    "react-flip-clock": "^1.0.4",
+    "react-flip-clock-count-down": "^1.0.1",
+    "react-flip-clock-en": "^1.0.6",
+    "react-owl-carousel": "^2.3.3",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-simple-flipclock": "^0.3.1",
+    "sass": "^1.52.2",
+    "web-vitals": "^2.1.4",
+    "x-react-flipclock": "^0.1.184153"
   },
+  "homepage": "http://DevsFarmX.github.io/landing",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
