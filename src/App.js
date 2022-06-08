@@ -24,9 +24,15 @@ import github from './images/github-icon.svg'
 import fmx from './images/FMX.png'
 import nice_fmx from './images/FMX_bo.png'
 import tg from './images/tg.png'
+import ethStuff from './images/ethStuff.png'
+import fmx_pairs from './images/FMX_pairs.png'
+import all_pairs from './images/all_pairs.png'
+import plsx_pls from './images/plsx_pls.png'
 
 import eth from './images/eth-logo.png'
 import bsc from './images/binance_logo.png'
+
+import pairs_pulse from './images/plsx_pls.png'
 
 import copy from './images/copy.svg'
 
@@ -830,13 +836,13 @@ function App() {
             <div className="row align-items-center justify-content-between mt-5">
               <div className="col-12 col-md-6">
                 <img
-                  src={illustration}
+                  src={pairs_pulse}
                   alt="illustration"
                   className="img-fluid"
                 />
               </div>
               <div className="col-12 col-md-6">
-                <h6 className="text-info mb-4">WHY FARMX</h6>
+                <h6 className="text-info mb-4">FarmX</h6>
                 <h2 className="mb-4">
                   Empowering
                   <font color="b443b9"> PLS</font> &{' '}
@@ -861,8 +867,215 @@ function App() {
                 </a>
               </div>
             </div>
+
+            <div
+              className="row align-items-center justify-content-between "
+              style={{ marginTop: '200px' }}
+            >
+              <div className="col-12 col-md-6">
+                <h6 className="text-info mb-4">FMX Protocol</h6>
+                <h2 className="mb-4">
+                  Profit from
+                  <font color="b443b9"> PLS</font> &{' '}
+                  <font color="b443b9"> PLSX</font> with FMX
+                </h2>
+                <p className="lead mb-4">
+                  Cross-Chain FarmX infrastructure will allow FMX Protocol to
+                  profit from all DEX opportunities. Protocol reinvesting
+                  strategies including DeFi 2.0 features.
+                </p>
+                <p>
+                  All <b>FMX Sacrifiers </b>
+                  will get competitive advantatges like:
+                  <br></br>
+                  <ul>
+                    <li>Higher APY from FarmX Pools</li>
+                    <li>Automated Protocol Rewards</li>
+                    <li>No TimeLock Vestings</li>
+                    <li>Exclusive Pools</li>
+                    <li>Exclusive Farms</li>
+                  </ul>
+                </p>
+                <a
+                  href="https://medium.com/@farmX"
+                  className="btn btn-primary mt-3"
+                >
+                  Learn more
+                </a>
+              </div>
+              <div className="col-12 col-md-6">
+                <img src={fmx_pairs} alt="illustration" className="img-fluid" />
+              </div>
+            </div>
+            <br></br>
+
+            <div className="row align-items-center justify-content-between mt-5">
+              <div className="col-12 col-md-6">
+                <img src={all_pairs} alt="illustration" className="img-fluid" />
+              </div>
+              <div className="col-12 col-md-6">
+                <h6 className="text-info mb-4">How</h6>
+                <h2 className="mb-4">
+                  Cross-Chain
+                  <font color="b443b9"> DEXs</font> opportunities
+                </h2>
+                <p className="lead mb-4">
+                  PulseX most liquid pairs will be supported on FarmX,
+                  supporting first PulseChain DEX, will create a lot of
+                  opportunities FMX protocol will be able to profit from.
+                </p>
+                <p>
+                  Being a Cross-Chain Yield Aggregator allow FMX Protocol to be
+                  implemented on different EVM compatible networks.
+                  <br></br>
+                  <br></br>
+                  <i>
+                    <b>Note: </b>
+                    Not only by Stable Coins arbitratge opportunities.
+                  </i>
+                </p>
+                <a
+                  href="https://medium.com/@farmX"
+                  className="btn btn-primary mt-3"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+
+            <div
+              className="row align-items-center justify-content-between "
+              style={{ marginTop: '200px' }}
+            >
+              <div className="col-12 col-md-6">
+                <h6 className="text-info mb-4">Best Strategy</h6>
+                <h2 className="mb-4">
+                  Global DApp with <font color="b443b9"> FarmX </font>
+                </h2>
+                <p className="lead mb-4">
+                  Once FarmX is deployed on PulseChain mainnet, FarmX team will
+                  allocate all efforts in to creating a mobile DApp version that
+                  can be fit in hardwallet devices, so there is a wider
+                  availability and more people can access and profit from
+                  Farming on the first PulseX Yield Farm Aggregator.
+                </p>
+
+                {/* <a
+                  href="https://medium.com/@farmX"
+                  className="btn btn-primary mt-3"
+                >
+                  Learn more
+                </a> */}
+              </div>
+              <div className="col-12 col-md-6">
+                <img
+                  src={illustration}
+                  alt="illustration"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <br></br>
+            <div className="row align-items-center justify-content-between mt-5">
+              <div className="col-12 col-md-6">
+                <img src={nice_fmx} alt="illustration" className="img-fluid" />
+                <font size="+3">FMX</font> (PRC-20)
+                <br></br>
+              </div>
+              <div className="col-12 col-md-6">
+                <h6 className="text-info mb-4">FMX, native token</h6>
+                <h2 className="mb-4">
+                  FarmX
+                  <font color="b443b9"> Protocol</font> exclusive Sacrifice
+                  advantatges
+                </h2>
+                <p className="lead mb-4">
+                  Those who participate in FMX Sacrifice before FarmX launch,
+                  will enjoy:
+                </p>
+                <p>
+                  <ul>
+                    <li>Higher APY from FarmX Pools</li>
+                    <li>Automated Protocol Rewards</li>
+                    <li>No TimeLock Vestings</li>
+                    <li>Limited Pools & Farms</li>
+                  </ul>
+                </p>
+                <a
+                  href="https://medium.com/@farmX"
+                  className="btn btn-primary mt-3"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+
+            {/* <br></br>
+            <br></br>
+
+            <div className="section-title mini-title">
+              <h4>Collaborators & Partners</h4>
+            </div>
+            <div className="d-flex flex-wrap align-items-center justify-content-around text-center mt-5 client-logos">
+              <div className="flex-md-fill ">
+                <a
+                  href="https://soken.io/?utm_source=google&utm_medium=cpc&utm_campaign=France&utm_content=1&utm_term=smart%20contract%20audit%20companies&gclid=CjwKCAjw7vuUBhBUEiwAEdu2pHi7olBf6MxAJbrSzCLnDzeq6rjrLqtZKNFsOdshBxO-_81vyD5_zBoCBRgQAvD_BwE"
+                  target="_blank"
+                >
+                  <img
+                    height="50px"
+                    width="100px"
+                    src="https://soken.io/wp-content/uploads/2021/11/Logo-_-White.png"
+                    alt="logo"
+                    className="img-fluid"
+                  />
+                </a>
+              </div>
+              <div className="flex-md-fill ">
+                <a
+                  href="https://solidity.finance/?gclid=CjwKCAjw7vuUBhBUEiwAEdu2pPMnDiAU0Y5tQv46PKV2cLHid4-Vs3BglYFZL1lveBaH5YXgivxxMBoCkYkQAvD_BwE"
+                  target="_blank"
+                >
+                  <img
+                    height="100px"
+                    width="100px"
+                    src="https://solidity.finance/images/main.png"
+                    alt="logo"
+                    className="img-fluid"
+                  />
+                </a>
+              </div>
+
+              <div className="flex-md-fill ">
+                <a
+                  href="https://4irelabs.com/smart-contract-audit/?utm_source=google&utm_medium=cpc&utm_campaign=smart_conract_audit&utm_term=smart%20contract%20auditing%20services&gclid=CjwKCAjw7vuUBhBUEiwAEdu2pNsiN6zqx71GjcaETHsIqfVfnj4hUTbak2yKa9owp1RgjEzMeN_g-xoCCpcQAvD_BwE"
+                  target="_blank"
+                >
+                  <img
+                    height="80px"
+                    width="150px"
+                    src="https://4irelabs.com/wp-content/uploads/2021/06/FIRE-logo-website.svg"
+                    alt="logo"
+                    className="img-fluid"
+                  />
+                </a>
+              </div>
+              <div className="flex-md-fill ">
+                <a href="https://www.certik.com/" target="_blank">
+                  <img
+                    height="80px"
+                    width="150px"
+                    src="https://www.certik.com/certik-logotype-h-w.svg"
+                    alt="logo"
+                    className="img-fluid"
+                  />
+                </a>
+              </div>
+            </div> */}
+
             <br></br>
             <br></br>
+
             <div className="section-title mini-title">
               <h4>Future Audits</h4>
             </div>
