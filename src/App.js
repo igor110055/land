@@ -384,7 +384,7 @@ function App() {
               <h3>FMX Sacrifice</h3>
             </div>
             <p className="lead p-3 centered-text text-center mx-auto">
-              FMX is a fixed token economy set by the demand of FMX Sacrifice,{' '}
+              FMX creates a token economy set by the demand of FMX Sacrifice,{' '}
               {sentence}
             </p>
             <div
@@ -884,24 +884,6 @@ function App() {
                   profit from all DEX opportunities. Protocol reinvesting
                   strategies including DeFi 2.0 features.
                 </p>
-                <p>
-                  All <b>FMX Sacrifiers </b>
-                  will get competitive advantatges like:
-                  <br></br>
-                  <ul>
-                    <li>Higher APY from FarmX Pools</li>
-                    <li>Automated Protocol Rewards</li>
-                    <li>No TimeLock Vestings</li>
-                    <li>Exclusive Pools</li>
-                    <li>Exclusive Farms</li>
-                  </ul>
-                </p>
-                <a
-                  href="https://medium.com/@farmX"
-                  className="btn btn-primary mt-3"
-                >
-                  Learn more
-                </a>
               </div>
               <div className="col-12 col-md-6">
                 <img src={fmx_pairs} alt="illustration" className="img-fluid" />
